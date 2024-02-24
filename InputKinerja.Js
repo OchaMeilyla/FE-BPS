@@ -40,7 +40,7 @@ submitBtn.addEventListener("click", dataForm);
 function dataForm(e){
     e.preventDefault();
 
-    fetch('https://be-cvk9srrg4-ochas-projects.vercel.app/submit',{
+    fetch('https://be-bps-ochas-projects.vercel.app/submit',{
         method: 'POST',
         headers: {
             "Content-Type": "application/json",
