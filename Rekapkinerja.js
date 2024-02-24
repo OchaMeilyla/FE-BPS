@@ -11,7 +11,7 @@ function loadData() {
   const selectedName = document.getElementById('nama-pegawai').value;
   const selectedDate = document.getElementById('tanggal-kegiatan').value;
 
-  fetch('http://localhost:3000/rekap')
+  fetch('https://be-cvk9srrg4-ochas-projects.vercel.app/rekap')
       .then(response => response.json())
       .then(data => {
           let reportList = '';
